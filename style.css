@@ -12,6 +12,19 @@ img.title {
     margin-right: auto;
     width: 40%;
 }
+form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+svg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
 
 .cc-selector input{
     margin:0;padding:0;
@@ -23,7 +36,13 @@ img.title {
 .pudge{background-image:url(heroesIcons/240px-Pudge_icon.png);}
 .dragon_knight{background-image:url(heroesIcons/240px-Dragon_Knight_icon.png);}
 .sniper{background-image:url(heroesIcons/240px-Sniper_icon.png);}
+.bloodseeker{background-image:url(heroesIcons/240px-Bloodseeker_icon.png);}
+.viper{background-image:url(heroesIcons/240px-Viper_icon.png);}
+.crystal_maiden{background-image:url(heroesIcons/240px-Crystal_Maiden_icon.png);}
+.wind_ranger{background-image:url(heroesIcons/240px-Windranger_icon.png);}
+.zeus{background-image:url(heroesIcons/240px-Zeus_icon.png);}
 .bristleback{background-image:url(heroesIcons/240px-Bristleback_icon.png);}
+.abaddon{background-image:url(heroesIcons/240px-Abaddon_icon.png);}
 
 .cc-selector input:active +.drinkcard-cc{opacity: .9;}
 .cc-selector input:checked +.drinkcard-cc{
