@@ -6,6 +6,29 @@ div.all {
     padding: 1%;
 }
 
+ul {
+    max-width: 40%;
+}
+
+
+h2 {
+    text-transform: uppercase;
+    color: #B80F00;
+}
+
+h3 {
+    color: #B97327;
+}
+h4 {
+    color: #90A9B7;
+}
+
+p {
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+    color: #D2D8B3
+}
 img.title {
     display: block;
     margin-left: auto;
@@ -18,6 +41,7 @@ form {
     margin-right: auto;
     width: 95%;
 }
+
 
 svg {
     display: block;
