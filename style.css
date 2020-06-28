@@ -10,6 +10,7 @@ body {background-image: url(https://wonderfulengineering.com/wp-content/uploads/
 .pudge{background-image:url(heroesIcons/240px-Pudge_icon.png);}
 .dragon_knight{background-image:url(heroesIcons/240px-Dragon_Knight_icon.png);}
 .sniper{background-image:url(heroesIcons/240px-Sniper_icon.png);}
+.bristleback{background-image:url(heroesIcons/240px-Bristleback_icon.png);}
 
 .cc-selector input:active +.drinkcard-cc{opacity: .9;}
 .cc-selector input:checked +.drinkcard-cc{
