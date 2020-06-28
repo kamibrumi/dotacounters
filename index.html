@@ -15,14 +15,15 @@
 <form>
     <p>Select hero to add:</p>
     <div class="cc-selector">
-        <input id="axe" type="radio" name="credit-card" value="axe" />
+        <input id="axe" type="radio" name="hero" value="1" />
         <label class="drinkcard-cc axe" for="axe"></label>
-        <input id="mastercard" type="radio" name="credit-card" value="mastercard" />
-        <label class="drinkcard-cc mastercard"for="mastercard"></label>
-        <input id="visa2" type="radio" name="credit-card" value="visa2" />
-        <label class="drinkcard-cc visa2" for="visa2"></label>
-        <input id="sniper" type="radio" name="credit-card" value="sniper" />
+        <input id="pudge" type="radio" name="hero" value="2" />
+        <label class="drinkcard-cc pudge"for="pudge"></label>
+        <input id="dragon_knight" type="radio" name="hero" value="3" />
+        <label class="drinkcard-cc dragon_knight" for="dragon_knight"></label>
+        <input id="sniper" type="radio" name="hero" value="4" />
         <label class="drinkcard-cc sniper" for="sniper"></label>
+        <input type="submit" value="Submit">
     </div>
 </form>
 <button onclick="addHero()">Add hero</button>
@@ -317,9 +318,25 @@
     var links = [];
     var nodes = [];
 
+
+
+    var form = document.querySelector("form");
+
+    form.addEventListener("submit", function(event) {
+        var data = new FormData(form);
+        var output = "";
+        for (const entry of data) {
+            output = output + entry[0] + "=" + entry[1] + "\r";
+        };
+
+        addHero();
+        event.preventDefault();
+    }, false);
+
     function addHero() {
         nodes.push(heroesMap.get(1))
         update(links, nodes);
+
     }
 
 
@@ -385,7 +402,8 @@
 
         node.append("text")
             .attr("dy", -3)
-            .text(function (d) {return d.name+":"+d.label;});
+            .text(function (d) {return d.name+":"+d.label;})
+            .style('fill', 'darkOrange');
 
         simulation
             .nodes(nodes)
