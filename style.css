@@ -1,4 +1,17 @@
-body {background-image: url(https://wonderfulengineering.com/wp-content/uploads/2014/07/black-wallpapers.jpg)}
+body {
+    background-image: url(https://wonderfulengineering.com/wp-content/uploads/2014/07/black-wallpapers.jpg);
+}
+
+div.all {
+    padding: 1%;
+}
+
+img.title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
 
 .cc-selector input{
     margin:0;padding:0;
