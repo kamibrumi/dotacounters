@@ -6,6 +6,9 @@
 <br>
 [Data Day Grind Closing Ceremony + Winners Announcement](https://youtu.be/GTk9msN4pTo?t=3919)
 
+[![alt text](https://imgur.com/a/kYoBgpC)](https://imgur.com/a/G4lhOcL "Dota 2 Counters")
+
+
 ## Elevator Pitch
 Dota 2 is a highly complex, highly acclaimed computer game. Before each game 10 players, distributed in two opposing teams, are involved in a several minutes-long drafting phase in which they choose heroes.
 
@@ -18,7 +21,7 @@ Dota 2 is a multiplayer online battle arena (MOBA) video game developed and publ
 
 Dota 2 has been criticized for its complexity and the steep learning curve required to master the game. One of its most complex parts is related to choosing a hero to play and identifying abilities that are effective against the enemy heroes. Before a match starts, there is a "drafting phase" when the 10 players choose what heroes to play taking turns. Usually the decision about what heroes to pick is guided by the user's prior experience on what heroes are effective against similar hero combos. Since there are 119 heroes to pick from, this is a daunting task, and very often the players don't have the opportunity discover during the drafting phase what abilities might work against other heroes during the drafting phase and much less during the game.
 
-# Solution
+## Solution
 
 The visualization tool "Dota 2 Counters" we have developed has the objective of not only instructing what heroes are effective against other heroes but more importantly WHY. The related work in Dota Counter Pickers is focused exclusivelly on sorting the best hero choices according to their statistical likelihood of victory against a particular enemy hero combo. However they don't instruct the player regarding which opponent heroes they should consistently target during the match and what tactics will be effective.
 
