@@ -6,8 +6,8 @@
 <br>
 [Data Day Grind Closing Ceremony + Winners Announcement](https://youtu.be/GTk9msN4pTo?t=3919)
 
-[![Dota 2 Counters]](https://i.imgur.com/6IgoonT.mp4 "Dota 2 Counters")
-
+[![Dota 2 Counters] (https://i.imgur.com/pduc2l8.png)](https://i.imgur.com/6IgoonT.mp4 "Dota 2 Counters")
+^ Click on the image to see a short demo :] ^
 
 ## Elevator Pitch
 Dota 2 is a highly complex, highly acclaimed computer game. Before each game 10 players, distributed in two opposing teams, are involved in a several minutes-long drafting phase in which they choose heroes.
