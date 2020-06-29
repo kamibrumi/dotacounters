@@ -1,8 +1,9 @@
 # Dota 2 Counters
 
-# Award Winning Project @ Data Day Grind'20 hosted by Major League Hacking.
+### Award Winning Project @ Data Day Grind'20 hosted by Major League Hacking.
 
 [Devpost + Demo Video Link](https://devpost.com/software/dotacounters)
+<br>
 [Data Day Grind Closing Ceremony + Winners Announcement](https://youtu.be/GTk9msN4pTo?t=3919)
 
 ## Elevator Pitch
