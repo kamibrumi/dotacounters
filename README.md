@@ -6,7 +6,7 @@
 <br>
 [Data Day Grind Closing Ceremony + Winners Announcement](https://youtu.be/GTk9msN4pTo?t=3919)
 
-[![Dota 2 Counters]()](https://imgur.com/a/G4lhOcL "Dota 2 Counters")
+[![Dota 2 Counters](https://i.imgur.com/pduc2l8.png)](https://i.imgur.com/6IgoonT.mp4 "Dota 2 Counters")
 
 
 ## Elevator Pitch
