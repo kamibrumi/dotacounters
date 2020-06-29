@@ -31,7 +31,7 @@ We have developed a graph-based Counters Picker technology that enables the user
 
 The Counter Picker graph has heroes in its nodes and abilities a hero can cast against enemy heroes. We had to build a dataset about how heroes are related to each other via their abilities. The existing Dota 2 datasets are already targeting the same problem of what heroes to pick via a win-lose ratio of some hero combos against other hero combos rather than explain these victory-loss ratios by atributting match characteristics to the usage of particular abilities.
 
-The dataset was built using information on https://dota2.gamepedia.com.  An example of Dota 2 counters webpage for just one (Bristleback) of the 119 heroes is available https://dota2.gamepedia.com/Bristleback/Counters.
+The dataset was built using information on https://dota2.gamepedia.com.  An example of Dota 2 counters webpage for just one (Bristleback) of the 119 heroes is available on https://dota2.gamepedia.com/Bristleback/Counters.
 
 We have distilled the information on a subset of the heroes on dota2.gamepedia.com and organized the information in a graph fasion. We have used the d3 javascript visualization library to render the graph together with the library of heroes.
 
